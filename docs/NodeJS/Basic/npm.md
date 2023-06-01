@@ -25,14 +25,7 @@ npm にはローカルインストール（プロジェクト単位でインス�
 npm install jquery
 
 # グローバルインストール
-npm install -g typescript
-```
-
-グローバルインストールしたものに関しては、現在いる場所（ディレクトリ）に関係なく、インストールしたパッケージのコマンドを実行できる。
-
-```bash
-# npm install -g typescriptでTypeScriptをグローバルインストールした場合は以下のように実行できる
-tsc index.ts
+npm install -g typescript # tsc コマンドがグローバルで使用できるようになる
 ```
 
 ### インストールの種類
@@ -42,4 +35,4 @@ tsc index.ts
 - dependencies（`--saveは使用しても良いが不要`）
 - devDependencies
 
-主な違いは、_開発時に用いるか否か_ 。`devDependencies`としてインストールしたい場合は、`--save-dev`オプションを付けて`npm install`する。
+主な違いは、**開発時に用いるか否か** 。`devDependencies` としてインストールしたい場合は、 `--save-dev` もしくは省略形の `-D` オプションを付けて `npm install` する。

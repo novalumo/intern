@@ -1,33 +1,22 @@
 # インストール方法
 
-Node.js のインストール方法は以下の通り。また、npm (Node Package Manager)も一緒にインストールされる（同梱されている）。
+[Volta](https://docs.volta.sh/guide/getting-started)を使用したインストールがおすすめ。
 
-## Windows
-
-1. [Node.js の公式ダウンロードページ](https://nodejs.org/ja/download/)から LTS か最新版の Windows 版インストーラーをダウンロード
-2. インストーラーを実行してインストール
-
-## macOS
-
-1. [Node.js の公式ダウンロードページ](https://nodejs.org/ja/download/)から LTS か最新版の macOS 版インストーラーをダウンロード
-2. インストーラーを実行してインストール
-
-## Ubuntu
-
-コマンドラインで以下の通り実行する。
+Volta をインストール後、以下のコマンドを実行して Node.js をインストールする。
 
 ```bash
-sudo apt update
-sudo apt install nodejs
+# Install the latest Node.js version
+volta install node
+```
+
+Yarn などのパッケージマネージャーを使用する場合は、以下のコマンドを実行してインストールする。
+
+```bash
+# Install Yarn 1
+volta install yarn@1
 ```
 
 インストールされた Node.js を確認するには、コマンドラインで以下を実行する。（どの OS でも共通）
-
-```bash
-nodejs -v
-```
-
-もしくは
 
 ```bash
 node -v

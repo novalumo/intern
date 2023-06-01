@@ -2,4 +2,6 @@
 
 [Python](https://www.python.org/)についての情報まとめ。
 
-- [インストール](./basic/installation.md)
+## インストール
+
+[rye](https://rye-up.com/guide/installation/)を使ったインストールがおすすめ。
