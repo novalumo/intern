@@ -1,4 +1,4 @@
-# ターミナル（CUI / CLI）
+# Shell
 
 ## 共通コマンド
 
@@ -6,7 +6,7 @@
 
 ## Windows
 
-WSLでインストールしたLinux等の環境で使用するシェルに関してはmacOS / Linuxの項目を参照。
+WSL でインストールした Linux 等の環境で使用するシェルに関しては macOS / Linux の項目を参照。
 
 ### コマンドプロンプト
 
@@ -22,13 +22,13 @@ WSLでインストールしたLinux等の環境で使用するシェルに関し
 
 ### Zsh
 
-macOS Catalinaからは標準シェルがBashからZshに変更された。
+macOS Catalina からは標準シェルが Bash から Zsh に変更された。
 
 ### Fish
 
 インストールするには以下のコマンドを実行。
 
-macOS（Homebrewでのインストール）
+macOS（Homebrew でのインストール）
 
 ```bash
 brew install fish
