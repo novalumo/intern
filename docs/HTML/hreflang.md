@@ -7,7 +7,7 @@
 ### HTML
 
 ```html
-<link rel="alternate" hreflang="en" href="https://example.com/en/">
+<link rel="alternate" hreflang="en" href="https://example.com/en/" />
 ```
 
 ### HTTP Header

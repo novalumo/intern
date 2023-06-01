@@ -1,6 +1,6 @@
 # TypeScript
 
-Microsoftが開発した、言わば「JavaScriptを拡張したもの」。型定義など、JavaScriptでは出来ないことができるようになっている。
+Microsoft が開発した、言わば「JavaScript を拡張したもの」。型定義など、JavaScript では出来ないことができるようになっている。
 
 |                  |                        |
 | ---------------- | ---------------------- |
@@ -15,4 +15,4 @@ Microsoftが開発した、言わば「JavaScriptを拡張したもの」。型�
 
 ## Playground
 
-公式サイトには[Playground](https://www.typescriptlang.org/play)ページが用意されており、WebブラウザがあればオンラインでTypeScriptの各機能を試すことができる。
+公式サイトには[Playground](https://www.typescriptlang.org/play)ページが用意されており、Web ブラウザがあればオンラインで TypeScript の各機能を試すことができる。

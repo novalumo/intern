@@ -1,1 +1,1 @@
-# Go言語（Golang）
+# Go
